@@ -1,3 +1,6 @@
+
+
+
 class Korisnik:
     def __init__(self, ime, prezime, email, telefon, adresa):
         self.__ime = ime
@@ -37,6 +40,4 @@ class Korisnik:
         print(f"\t Prezime: {self.__prezime}")
         print(f"\tTelefon: {self.__telefon}")
         print(f"\tEmail: {self.__email}")
-        print(f"\t ulica: {self.adresa.ulica}")
-        print(f"\tKucni broj: {self.adresa.kucni_broj}")
-        print(f"\tGrad: {self.adresa.grad}")
+        self.adresa.ispis()

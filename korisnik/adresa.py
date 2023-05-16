@@ -32,6 +32,6 @@ class Adresa:
 
     def ispis(self):
         print("Informacije o adresi: ")
-        print(f"Ulica: {self.__ulica}")
-        print(f"Kucni broj : {self.__kucni_broj}")
-        print(f"Grad: {self.__grad}")
+        print(f"Ulica: {self.ulica}")
+        print(f"Kucni broj : {self.kucni_broj}")
+        print(f"Grad: {self.grad}")

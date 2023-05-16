@@ -14,7 +14,6 @@ def unos_korisnika(redni_broj):
 
 
 
-
     adresa = Adresa(ulica, kucni_broj, grad)
 
     return Korisnik(ime, prezime, email, telefon, adresa)
