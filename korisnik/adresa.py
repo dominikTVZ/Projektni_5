@@ -19,7 +19,7 @@ class Adresa:
         return self.__kucni_broj
 
     @kucni_broj.setter
-    def ulica(self, kucni_broj):
+    def kucni_broj(self, kucni_broj):
         self.__kucni_broj = kucni_broj
 
     @property
@@ -28,7 +28,7 @@ class Adresa:
 
     @grad.setter
     def grad(self, grad):
-        self.__grad= grad
+        self.__grad = grad
 
     def ispis(self):
         print("Informacije o adresi: ")
